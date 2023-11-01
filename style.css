@@ -1,19 +1,20 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
 }
 
 .wrap {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 10px auto;
     width: 100%;
 }
 
 .header {
     background: #EEEFF1;
     min-height: 500px;
+    padding-top: 30px;
 }
 
 .save {
@@ -172,7 +173,7 @@ p {
 
 .cat-img button img {
     position: absolute;
-    top: 500px;
+    top: 580px;
     left: 700px;
     width: 50px;
     height: 50px;
@@ -185,10 +186,13 @@ p {
 }
 
 .goog-img {
-    margin: 60px 0 0;
-    width: 1200;
-    height: 200px;
-
+    /* margin: 60px 0 0;
+    width: 1200px;
+    height: 200px; */
+    gap:70px;
+    display: flex;
+    padding: 30px 0;
+    
 }
 
 .thisis {
@@ -218,7 +222,7 @@ h3 {
     padding-left: 300px;
 }
 
-h5 { 
+h5 {
     font-size: 7px;
     color: #fff;
     padding-left: 300px;
